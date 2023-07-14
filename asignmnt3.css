@@ -1,0 +1,23 @@
+.imgsize {
+    position: relative;
+    display: inline;
+}
+
+.imgsize img {
+    width: 100px;
+    height: 100px;
+}
+img {
+    border: 3px solid purple;
+}
+.imgsize:hover::after {
+    content: "I am Image in webpage";
+    position: relative;
+    border: 3px solid purple;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(231, 103, 231);
+    color: white;
+    
+}
